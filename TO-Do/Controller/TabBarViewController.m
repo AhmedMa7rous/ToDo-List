@@ -350,13 +350,15 @@
     content.body = [NSString localizedUserNotificationStringForKey: @"Ok"
             arguments:nil];
     content.sound = [UNNotificationSound defaultSound];
+    
     //set calender
     //NSCalendar* calender = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     //[calender setTimeZone:[NSTimeZone localTimeZone]];
+    
     // Configure the trigger for todo time.
     NSDateComponents* date = [[NSDateComponents alloc] init];
-    date.hour = 20;
-    date.minute = 7;
+    date.hour = 1;
+    date.minute = 23;
     UNCalendarNotificationTrigger* trigger = [UNCalendarNotificationTrigger
            triggerWithDateMatchingComponents:date repeats:NO];
     // Create the request object.
