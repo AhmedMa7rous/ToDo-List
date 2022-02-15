@@ -3,32 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A2464F931564201ED67D015 /* Pods_TO_Do.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA4D29593A1D4E13FC0ADDF /* Pods_TO_Do.framework */; };
 		B81C9F2F27A4A7A9003CFA81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B81C9F2E27A4A7A9003CFA81 /* AppDelegate.m */; };
 		B81C9F3227A4A7A9003CFA81 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B81C9F3127A4A7A9003CFA81 /* SceneDelegate.m */; };
-		B81C9F3527A4A7A9003CFA81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81C9F3427A4A7A9003CFA81 /* ViewController.m */; };
 		B81C9F3827A4A7A9003CFA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81C9F3627A4A7A9003CFA81 /* Main.storyboard */; };
 		B81C9F3A27A4A7AB003CFA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81C9F3927A4A7AB003CFA81 /* Assets.xcassets */; };
 		B81C9F3D27A4A7AB003CFA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81C9F3B27A4A7AB003CFA81 /* LaunchScreen.storyboard */; };
 		B81C9F4027A4A7AB003CFA81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B81C9F3F27A4A7AB003CFA81 /* main.m */; };
+		B89EC72427A54C5A00F93AC0 /* TodoTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EC72327A54C5A00F93AC0 /* TodoTask.m */; };
+		B8AFF52C27A8849A0087B999 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFF52B27A8849A0087B999 /* TabBarViewController.m */; };
+		B8AFF52F27A886E40087B999 /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFF52E27A886E40087B999 /* TodoViewController.m */; };
+		B8AFF53227A887040087B999 /* InProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFF53127A887040087B999 /* InProgressViewController.m */; };
+		B8AFF53527A887100087B999 /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFF53427A887100087B999 /* DoneViewController.m */; };
+		B8AFF53827A887730087B999 /* AddTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFF53727A887730087B999 /* AddTodoViewController.m */; };
+		B8AFF54227A890AD0087B999 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFF54027A890AD0087B999 /* DBManager.m */; };
+		B8B3B9E427B5741C005F0388 /* ToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B3B9E327B5741C005F0388 /* ToDoTableViewCell.m */; };
+		B8E0E07827B8C427009288D1 /* InProgressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E0E07727B8C427009288D1 /* InProgressTableViewCell.m */; };
+		B8E0E07B27B8C43A009288D1 /* DoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E0E07A27B8C43A009288D1 /* DoneTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		666798D6CEF3EF21B0295000 /* Pods-TO-Do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TO-Do.debug.xcconfig"; path = "Target Support Files/Pods-TO-Do/Pods-TO-Do.debug.xcconfig"; sourceTree = "<group>"; };
+		6957DB350643106F99E05F58 /* Pods-TO-Do.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TO-Do.release.xcconfig"; path = "Target Support Files/Pods-TO-Do/Pods-TO-Do.release.xcconfig"; sourceTree = "<group>"; };
+		6FA4D29593A1D4E13FC0ADDF /* Pods_TO_Do.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TO_Do.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81C9F2A27A4A7A9003CFA81 /* TO-Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TO-Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81C9F2D27A4A7A9003CFA81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B81C9F2E27A4A7A9003CFA81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B81C9F3027A4A7A9003CFA81 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		B81C9F3127A4A7A9003CFA81 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B81C9F3327A4A7A9003CFA81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B81C9F3427A4A7A9003CFA81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B81C9F3727A4A7A9003CFA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B81C9F3927A4A7AB003CFA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B81C9F3C27A4A7AB003CFA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B81C9F3E27A4A7AB003CFA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B81C9F3F27A4A7AB003CFA81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B89EC72227A54C5A00F93AC0 /* TodoTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTask.h; sourceTree = "<group>"; };
+		B89EC72327A54C5A00F93AC0 /* TodoTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTask.m; sourceTree = "<group>"; };
+		B8AFF52A27A8849A0087B999 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		B8AFF52B27A8849A0087B999 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		B8AFF52D27A886E40087B999 /* TodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		B8AFF52E27A886E40087B999 /* TodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
+		B8AFF53027A887040087B999 /* InProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressViewController.h; sourceTree = "<group>"; };
+		B8AFF53127A887040087B999 /* InProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressViewController.m; sourceTree = "<group>"; };
+		B8AFF53327A887100087B999 /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		B8AFF53427A887100087B999 /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
+		B8AFF53627A887730087B999 /* AddTodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTodoViewController.h; sourceTree = "<group>"; };
+		B8AFF53727A887730087B999 /* AddTodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTodoViewController.m; sourceTree = "<group>"; };
+		B8AFF53A27A888530087B999 /* AddTodoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTodoProtocol.h; sourceTree = "<group>"; };
+		B8AFF53E27A890590087B999 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B8AFF54027A890AD0087B999 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		B8AFF54127A890AD0087B999 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		B8B3B9E227B5741C005F0388 /* ToDoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewCell.h; sourceTree = "<group>"; };
+		B8B3B9E327B5741C005F0388 /* ToDoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewCell.m; sourceTree = "<group>"; };
+		B8CE98EE27AEB9D8000BD563 /* StoreTodoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreTodoProtocol.h; sourceTree = "<group>"; };
+		B8E0E07627B8C427009288D1 /* InProgressTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressTableViewCell.h; sourceTree = "<group>"; };
+		B8E0E07727B8C427009288D1 /* InProgressTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressTableViewCell.m; sourceTree = "<group>"; };
+		B8E0E07927B8C43A009288D1 /* DoneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneTableViewCell.h; sourceTree = "<group>"; };
+		B8E0E07A27B8C43A009288D1 /* DoneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +70,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2464F931564201ED67D015 /* Pods_TO_Do.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D3EB8B946D762F50E024A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				666798D6CEF3EF21B0295000 /* Pods-TO-Do.debug.xcconfig */,
+				6957DB350643106F99E05F58 /* Pods-TO-Do.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B81C9F2127A4A7A9003CFA81 = {
 			isa = PBXGroup;
 			children = (
 				B81C9F2C27A4A7A9003CFA81 /* TO-Do */,
 				B81C9F2B27A4A7A9003CFA81 /* Products */,
+				1D3EB8B946D762F50E024A39 /* Pods */,
+				E62ED1393D68B448830D443A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +107,14 @@
 		B81C9F2C27A4A7A9003CFA81 /* TO-Do */ = {
 			isa = PBXGroup;
 			children = (
+				B8AFF53F27A8907E0087B999 /* Support Files */,
+				B8AFF52927A8844D0087B999 /* Controller */,
+				B89EC72527A572AB00F93AC0 /* View */,
+				B89EC71F27A54BF000F93AC0 /* Model */,
 				B81C9F2D27A4A7A9003CFA81 /* AppDelegate.h */,
 				B81C9F2E27A4A7A9003CFA81 /* AppDelegate.m */,
 				B81C9F3027A4A7A9003CFA81 /* SceneDelegate.h */,
 				B81C9F3127A4A7A9003CFA81 /* SceneDelegate.m */,
-				B81C9F3327A4A7A9003CFA81 /* ViewController.h */,
-				B81C9F3427A4A7A9003CFA81 /* ViewController.m */,
 				B81C9F3627A4A7A9003CFA81 /* Main.storyboard */,
 				B81C9F3927A4A7AB003CFA81 /* Assets.xcassets */,
 				B81C9F3B27A4A7AB003CFA81 /* LaunchScreen.storyboard */,
@@ -76,6 +124,73 @@
 			path = "TO-Do";
 			sourceTree = "<group>";
 		};
+		B89EC71F27A54BF000F93AC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B89EC72227A54C5A00F93AC0 /* TodoTask.h */,
+				B89EC72327A54C5A00F93AC0 /* TodoTask.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B89EC72527A572AB00F93AC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8B3B9E227B5741C005F0388 /* ToDoTableViewCell.h */,
+				B8B3B9E327B5741C005F0388 /* ToDoTableViewCell.m */,
+				B8E0E07627B8C427009288D1 /* InProgressTableViewCell.h */,
+				B8E0E07727B8C427009288D1 /* InProgressTableViewCell.m */,
+				B8E0E07927B8C43A009288D1 /* DoneTableViewCell.h */,
+				B8E0E07A27B8C43A009288D1 /* DoneTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8AFF52927A8844D0087B999 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8AFF53927A888240087B999 /* Delegation Protocols */,
+				B8AFF52A27A8849A0087B999 /* TabBarViewController.h */,
+				B8AFF52B27A8849A0087B999 /* TabBarViewController.m */,
+				B8AFF52D27A886E40087B999 /* TodoViewController.h */,
+				B8AFF52E27A886E40087B999 /* TodoViewController.m */,
+				B8AFF53027A887040087B999 /* InProgressViewController.h */,
+				B8AFF53127A887040087B999 /* InProgressViewController.m */,
+				B8AFF53327A887100087B999 /* DoneViewController.h */,
+				B8AFF53427A887100087B999 /* DoneViewController.m */,
+				B8AFF53627A887730087B999 /* AddTodoViewController.h */,
+				B8AFF53727A887730087B999 /* AddTodoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8AFF53927A888240087B999 /* Delegation Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8AFF53A27A888530087B999 /* AddTodoProtocol.h */,
+				B8CE98EE27AEB9D8000BD563 /* StoreTodoProtocol.h */,
+			);
+			path = "Delegation Protocols";
+			sourceTree = "<group>";
+		};
+		B8AFF53F27A8907E0087B999 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8AFF54127A890AD0087B999 /* DBManager.h */,
+				B8AFF54027A890AD0087B999 /* DBManager.m */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		E62ED1393D68B448830D443A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8AFF53E27A890590087B999 /* libsqlite3.tbd */,
+				6FA4D29593A1D4E13FC0ADDF /* Pods_TO_Do.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B81C9F4327A4A7AB003CFA81 /* Build configuration list for PBXNativeTarget "TO-Do" */;
 			buildPhases = (
+				908BF41D3DA8268C9BDD9120 /* [CP] Check Pods Manifest.lock */,
 				B81C9F2627A4A7A9003CFA81 /* Sources */,
 				B81C9F2727A4A7A9003CFA81 /* Frameworks */,
 				B81C9F2827A4A7A9003CFA81 /* Resources */,
+				517275161772BFFF6A3B9B5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,15 +258,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		517275161772BFFF6A3B9B5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TO-Do/Pods-TO-Do-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TO-Do/Pods-TO-Do-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TO-Do/Pods-TO-Do-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908BF41D3DA8268C9BDD9120 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TO-Do-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B81C9F2627A4A7A9003CFA81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81C9F3527A4A7A9003CFA81 /* ViewController.m in Sources */,
+				B8AFF53227A887040087B999 /* InProgressViewController.m in Sources */,
 				B81C9F2F27A4A7A9003CFA81 /* AppDelegate.m in Sources */,
+				B8AFF54227A890AD0087B999 /* DBManager.m in Sources */,
+				B8B3B9E427B5741C005F0388 /* ToDoTableViewCell.m in Sources */,
+				B8AFF53827A887730087B999 /* AddTodoViewController.m in Sources */,
+				B8AFF52C27A8849A0087B999 /* TabBarViewController.m in Sources */,
 				B81C9F4027A4A7AB003CFA81 /* main.m in Sources */,
+				B8E0E07B27B8C43A009288D1 /* DoneTableViewCell.m in Sources */,
+				B8E0E07827B8C427009288D1 /* InProgressTableViewCell.m in Sources */,
+				B8AFF53527A887100087B999 /* DoneViewController.m in Sources */,
+				B89EC72427A54C5A00F93AC0 /* TodoTask.m in Sources */,
 				B81C9F3227A4A7A9003CFA81 /* SceneDelegate.m in Sources */,
+				B8AFF52F27A886E40087B999 /* TodoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +455,7 @@
 		};
 		B81C9F4427A4A7AB003CFA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666798D6CEF3EF21B0295000 /* Pods-TO-Do.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +465,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"DGActivityIndicatorView\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ma7rous.TO-Do";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,6 +482,7 @@
 		};
 		B81C9F4527A4A7AB003CFA81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6957DB350643106F99E05F58 /* Pods-TO-Do.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,6 +491,15 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"DGActivityIndicatorView\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ma7rous.TO-Do";
 				PRODUCT_NAME = "$(TARGET_NAME)";
