@@ -1,13 +1,14 @@
  <p align="center"> <img width="80" src="https://user-images.githubusercontent.com/33738409/154171401-22763018-a35d-449f-bfc3-b95cc0185eaf.png" alt="ToDo List logo"> </p>
 
 
- <p align="center">Don't forget to star 🌟 this work if like it :v: ✌️.</p>
+ <p align="center">Don't forget to star 🌟 this work if like it 👍 </p>
  
 # Table of Content
 - [About ToDoList](#about-todolist)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Features](#features)
+- [Languages](#languages)
 - [Technologies and Tools](#technologies-and-tools)
 - [Future Features](#future-features)
 - [About Developer](#about-developer)
@@ -47,6 +48,10 @@ Or you can simply download the code from here    https://github.com/ma7ros/ToDo-
   - Delete any todo task.
   - Get notification when the todo task time's up.
 
+## Languages
+  - [Objective-C](shorturl.at/otGMR)
+  - [Ruby](https://www.ruby-lang.org/en/)
+ 
 ## Technologies and Tools
   
   - [SQLite](https://www.sqlite.org/index.html) Database
@@ -62,6 +67,8 @@ Or you can simply download the code from here    https://github.com/ma7ros/ToDo-
   <div align="center">
   Ahmed Mahrous is a Computer Science Engineer and IOS Developer
   </div>
+ <p> </p>
+ <p> </p>
   <div align="center">
   <!-- Ahmed Mahrous LinkedIn -->
   <a href="https://www.linkedin.com/in/a-ma7rous/">
@@ -69,6 +76,6 @@ Or you can simply download the code from here    https://github.com/ma7ros/ToDo-
       alt="Ahmed Mahrous Linkedin Profile" />
   </a>
 </div>
-
-# Finally I hope it help 
+<p> </p>
+<h3 align="center"> ✌️ Finally I hope it help ✌️ </h3>
 
