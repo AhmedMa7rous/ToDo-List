@@ -1,83 +1,74 @@
-# ToDo-List
-This ios app help you to set your todos and make it easy to remember it by reminders you when todo time's up. 
-This ios app Developed using Objective-C programming language.
+ <p align="center"> <img width="80" src="https://user-images.githubusercontent.com/33738409/154171401-22763018-a35d-449f-bfc3-b95cc0185eaf.png" alt="ToDo List logo"> </p>
 
 
-# Don't forget to star 🌟 this work if like it :v: ✌️. 
+ <p align="center">Don't forget to star 🌟 this work if like it :v: ✌️.</p>
+ 
+# Table of Content
+- [About ToDoList](#about-todolist)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Features](#features)
+- [Technologies and Tools](#technologies-and-tools)
+- [Future Features](#future-features)
+- [About Developer](#about-developer)
+
+## About ToDoList
+An ios app that help users to set their todos and make it easy to remember this todos by reminders them when todo time's up, this app make sure that you don't forget any todos that you want to do just give it to the app and let the app hundle it for you.
+
+<img width="120" src="https://user-images.githubusercontent.com/33738409/154178195-c43ffbcc-980b-4046-b64b-61b053bfcd6a.png"> <img width="120" src="https://user-images.githubusercontent.com/33738409/154178381-fbd591a4-8ed2-46f2-ade3-62a6acb6e644.png"> <img width="120" src="https://user-images.githubusercontent.com/33738409/154178964-1fa2a66e-70fb-4603-a53e-4515d36df703.png"> <img width="120" src="https://user-images.githubusercontent.com/33738409/154178585-9cdcf170-9816-405c-a481-6290929af432.png"> <img width="120" src="https://user-images.githubusercontent.com/33738409/154178648-c51792c1-6e4c-44d3-9ccc-38dae5bc2d0a.png"> <img width="120" src="https://user-images.githubusercontent.com/33738409/154179253-4ed18c27-1981-45b7-934c-ecf904044046.png"> <img width="120" src="https://user-images.githubusercontent.com/33738409/154179412-e2eebd27-c3f8-4241-80dc-8461c64ab019.png"> <img width="120" src="https://user-images.githubusercontent.com/33738409/154179514-157d187e-572f-4872-9c2c-99b6f0607ca8.png">
+
+## Getting Started
+
+*To get this project up and running on your local machine for development and testing purposes.* <li> Make sure all prerequisties are met  
+<li> Clone this project on your machine by running  
+
+     git clone https://github.com/ma7ros/ToDo-List.git   
+
+Or you can simply download the code from here    https://github.com/ma7ros/ToDo-List/archive/refs/heads/master.zip 
+<li> Open the project on your Xcode  
+<li> Connect your device via (usb or wifi) or start a simulator   
+<li> Select the device from the menu   
+<li> Click the run button   
+
+![Screen Shot 2022-02-16 at 3 47 06 AM](https://user-images.githubusercontent.com/33738409/154180677-e7f1cebd-0dc8-4a34-8a4a-efd29a73c5fd.png)
 
 
-## Main Menu:
-![image](https://user-images.githubusercontent.com/33738409/147841976-7da0dc8f-b1e9-4cc4-9c0b-43e39db55dec.png)
+## Prerequisites
+- MacBook Laptop.
+- [Xcode](https://developer.apple.com/xcode/) Version 11.3.1 or higher, which can be downloaded from the Mac App Store. It comes with all the tools necessary, including a Simulator.
+- It nevertheless is recommended to test apps on the hardware (aka an iPhone) as well.
 
-### 1-Add Employee : 
-this fuction will let you add information of Employees to your database.
+## Features
+  - Set Todos tasks.
+  - Search on specific todo task.
+  - Set reminder for your todo task.
+  - Sort todo tasks by priority.
+  - Edit todo only if it not inProgress phase. 
+  - Delete any todo task.
+  - Get notification when the todo task time's up.
 
-- First specify how many Employee you want to add.
+## Technologies and Tools
+  
+  - [SQLite](https://www.sqlite.org/index.html) Database
+  - Cocoa Pods ["DGActivityIndicatorView"](https://cocoapods.org/pods/DGActivityIndicatorView)
+  - [MVC](shorturl.at/mJOR2) Design Pattern
 
-![image](https://user-images.githubusercontent.com/33738409/147841838-95e19f77-8e05-4b19-8e95-1007cd1980e2.png)
+## Future Features
+  
+  - Allow users to attached files if the todo task about reading.
+  - Allow set location if the todo task about visiting some place. 
 
-- Second enter data for each employee in order respectively.
-
-![image](https://user-images.githubusercontent.com/33738409/147841880-e5ec245b-6dfd-4391-9a8a-7f09ea956817.png)
-
-- Third after entered employees info you will see option to return to main menu.
-
-![image](https://user-images.githubusercontent.com/33738409/147841906-dcd4da85-d23a-41a2-8114-c840861c86ca.png)
-
-
-### 2-Display By ID:
-- This function will ask you to enter id of a specific employee to display his information.  
-
-![image](https://user-images.githubusercontent.com/33738409/147842054-1510157c-e709-413a-bf95-2a22b1d4fb40.png)
-
-![image](https://user-images.githubusercontent.com/33738409/147842026-441a9805-8e45-4bda-a1b6-6ab3b32979d2.png)
-
-### 3-Display By Name:
-- This function will ask you to enter Name of a specific employee to display his information. 
-
-![image](https://user-images.githubusercontent.com/33738409/147842127-ee14d6f1-9de6-4031-b43f-44459fcd5157.png)
-
-![image](https://user-images.githubusercontent.com/33738409/147842133-9e4ea7c3-6f51-4c9d-8051-024a533293ad.png)
-
-### 4-Display All:
-- This function will display all Employees information. 
-
-![image](https://user-images.githubusercontent.com/33738409/147842160-8ff1f5ef-a9ab-4489-808f-a5d41ce73864.png)
-
-### 5-Delete By ID:
-- This function will ask you to enter id of a specific employee to delete his information from the list. 
-
-![image](https://user-images.githubusercontent.com/33738409/147842216-f322a3bf-bd34-4f43-b235-e30ae3660e66.png)
-
-![image](https://user-images.githubusercontent.com/33738409/147842219-513384f1-2590-4ac2-a85f-e06b2e42935b.png)
-
-### 6-Delete By Name:
-- This function will ask you to enter id of a specific employee to delete his information from the list. 
-
-![image](https://user-images.githubusercontent.com/33738409/147842226-aff7007e-d59f-4991-ad48-c1a58dffd048.png)
-
-![image](https://user-images.githubusercontent.com/33738409/147842233-2369089c-20cd-40ac-841b-557a5375896b.png)
-
-### 7-Delete All:
-- This function will delete all Employees information from the list. 
-
-![image](https://user-images.githubusercontent.com/33738409/147842270-1619928f-cf9c-473e-8a6d-50213366c6f7.png)
-
-### 8-Exit:
-- This function eill close the program.
-
-
-# Notes:
-
-#### when you enter employee data the program will check each id to be unique, and if you enter identical ids,
-the program will not let you do this by repeat the statment to enter different one to make ids unique.
-
-![image](https://user-images.githubusercontent.com/33738409/147842333-acdd1ea4-37ab-43b1-ab4d-edf4d0bca78a.png)
-
-#### When you enter the age for each employee the age must be between 18 - 60 years old so the program will hundle it too.
-
-![image](https://user-images.githubusercontent.com/33738409/147842322-4f3da337-36db-4918-923b-1c989de8bc09.png)
-
+## About Developer
+  <div align="center">
+  Ahmed Mahrous is a Computer Science Engineer and IOS Developer
+  </div>
+  <div align="center">
+  <!-- Ahmed Mahrous LinkedIn -->
+  <a href="https://www.linkedin.com/in/a-ma7rous/">
+    <img src="https://user-images.githubusercontent.com/33738409/154184172-7a13b01e-6eb1-4134-ae91-c82588a7b27b.png" width="80px" height="80px"  
+      alt="Ahmed Mahrous Linkedin Profile" />
+  </a>
+</div>
 
 # Finally I hope it help 
 
