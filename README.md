@@ -56,7 +56,7 @@ Or you can simply download the code from here    https://github.com/ma7ros/ToDo-
   
   - [SQLite](https://www.sqlite.org/index.html) Database
   - Cocoa Pods ["DGActivityIndicatorView"](https://cocoapods.org/pods/DGActivityIndicatorView)
-  - [MVC](shorturl.at/mJOR2) Design Pattern
+  - [MVC](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm) Design Pattern
 
 ## Future Features
   
