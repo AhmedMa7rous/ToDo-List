@@ -1,7 +1,7 @@
  <p align="center"> <img width="80" src="https://user-images.githubusercontent.com/33738409/154171401-22763018-a35d-449f-bfc3-b95cc0185eaf.png" alt="ToDo List logo"> </p>
 
 
- <p align="center">Don't forget to star 🌟 this work if like it 👍 </p>
+ <p align="center">First I hope you like 👍 this work</p>
  
 # Table of Content
 - [About ToDoList](#about-todolist)
