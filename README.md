@@ -72,7 +72,7 @@ Or you can simply download the code from here    https://github.com/ma7ros/ToDo-
   <div align="center">
   <!-- Ahmed Mahrous LinkedIn -->
   <a href="https://www.linkedin.com/in/a-ma7rous/">
-    <img src="https://user-images.githubusercontent.com/33738409/154184172-7a13b01e-6eb1-4134-ae91-c82588a7b27b.png" width="80px" height="80px"  
+    <img src="https://user-images.githubusercontent.com/33738409/154184172-7a13b01e-6eb1-4134-ae91-c82588a7b27b.png" width="40px" height="40px"  
       alt="Ahmed Mahrous Linkedin Profile" />
   </a>
 </div>
